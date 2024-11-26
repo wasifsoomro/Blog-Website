@@ -29,6 +29,7 @@ export default function Contact() {
               id="name"
               name="name"
               placeholder="Enter your name"
+              required
               className="w-full mt-2 p-3 border border-gray-300 rounded focus:ring-blue-500 focus:border-blue-500"
             />
           </div>
@@ -45,6 +46,7 @@ export default function Contact() {
               id="email"
               name="email"
               placeholder="Enter your email"
+              required
               className="w-full mt-2 p-3 border border-gray-300 rounded focus:ring-blue-500 focus:border-blue-500"
             />
           </div>
@@ -61,6 +63,7 @@ export default function Contact() {
               name="message"
               rows={4}
               placeholder="Write your message"
+              required
               className="w-full mt-2 p-3 border border-gray-300 rounded focus:ring-blue-500 focus:border-blue-500"
             ></textarea>
           </div>
